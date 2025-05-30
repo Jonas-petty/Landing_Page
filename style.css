@@ -21,6 +21,12 @@
     background-color: var(--color-1);
     padding: 1.6rem;
     display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    min-width: 900px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
