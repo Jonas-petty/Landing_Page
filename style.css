@@ -16,9 +16,17 @@
     --color-4: #3882f6;
 }
 
+/* body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+} */
+
 .header-container,
 .hero-container,
-.info-container {
+.info-container,
+.quote-container {
     width: 900px;
     min-width: 500px;
 }
@@ -121,7 +129,7 @@ button.alter {
 .cards-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 2.5rem 0;
     gap: 2.5rem;
 }
@@ -145,3 +153,30 @@ button.alter {
     font-size: 1.6rem;
     font-weight: 300;
 }
+
+.quote {
+    background-color: var(--color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 5rem;
+}
+
+blockquote > p {
+    font-style: italic;
+    font-size: 3.6rem;
+    font-weight: 300;
+}
+
+.quote cite {
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: 600;
+    align-self: self-end;
+}
+
