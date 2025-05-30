@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
     margin: 0;
@@ -10,8 +10,33 @@
 :root {
     font-size: 62.5%;
 
-    --color-1: #1F2937;
-    --color-2: #E5E7EB;
-    --color-3: #F9FAF8;
-    --color-4: #3882F6;
+    --color-1: #1f2937;
+    --color-2: #e5e7eb;
+    --color-3: #f9faf8;
+    --color-4: #3882f6;
+}
+
+.header {
+    color: var(--color-3);
+    background-color: var(--color-1);
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header > h1 {
+    font-size: 2.4rem;
+}
+
+.links > ul {
+    font-size: 1.6rem;
+    list-style-type: none;
+    display: flex;
+    gap: 1.6rem;
+}
+
+.links > ul a {
+    text-decoration: none;
+    color: var(--color-3);
 }
