@@ -26,7 +26,8 @@
 .header-container,
 .hero-container,
 .info-container,
-.quote-container {
+.quote-container,
+.call-to-action-container {
     width: 900px;
     min-width: 500px;
 }
@@ -178,5 +179,44 @@ blockquote > p {
     font-size: 1.6rem;
     font-weight: 600;
     align-self: self-end;
+}
+
+.call-to-action {
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-container {
+    background-color: var(--color-4);
+    padding: 3rem 8rem;
+    margin: 5rem 0;
+
+    border-radius: .5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-to-action-content {
+    font-size: 1.6rem;
+    color: var(--color-2);
+}
+
+.call-to-action-content::first-line {
+    font-weight: 700;
+}
+
+footer {
+    font-size: 1.6rem;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 0;
+
 }
 
