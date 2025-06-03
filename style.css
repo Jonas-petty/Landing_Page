@@ -80,6 +80,7 @@
 
 .hero-container > img {
     height: 25rem;
+    width: auto;
     object-fit: cover;
 }
 
@@ -225,6 +226,38 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 2.5rem 0;
+
+}
+
+
+@media (max-width: 767.98px){
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-container > img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .cards-container {
+        
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .card > img {
+        border: none;
+        border-radius: 0;
+        width: 100%;
+    }
+
 
 }
 
